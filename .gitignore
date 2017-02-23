@@ -29,3 +29,8 @@
 *.sqlite
 .ftpquota
 error_log
+
+# Private Content #
+###################
+# Files you don't want to share to the repo
+google-analytics.js
