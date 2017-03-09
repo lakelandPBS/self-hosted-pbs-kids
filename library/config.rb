@@ -6,7 +6,6 @@ http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "images"
-javascripts_dir = "javascript"
 
 # Keep the output CSS as small as possible
 output_style = :compressed
