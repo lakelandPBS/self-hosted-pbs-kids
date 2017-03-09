@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: #00edff;
     padding: 0;
     margin: 0;
     border: 0;
@@ -10,6 +11,17 @@ html, body {
 
 .localized-nav {
     display: none;
+    background-color: #00edff;
+    color: #00a0d1;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            float: right;
+            display: inline-block;
+        }
+    }
 }
 
 .pbs-kids-video-module {

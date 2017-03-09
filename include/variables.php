@@ -16,3 +16,11 @@ $pageTitle = 'Lakeland PBS Kids';
 
 // station logo (png is best)
 $stationLogo = 'images/logo.png';
+
+// menu items ... keep this as short as possible
+$stationMenuItems = array(
+    'Parents'       =>  'https://lptv.org/kids',
+    'Apps'          =>  'http://pbskids.org/apps/',
+    'TV Schedule'   =>  'https://lptv.org/kids',
+);
+
