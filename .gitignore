@@ -34,3 +34,4 @@ error_log
 ###################
 # Files you don't want to share to the repo
 google-analytics.js
+config.php
