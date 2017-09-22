@@ -1,5 +1,6 @@
 <?php
 
 // sssshhhhh
+die();
 
 ?>
