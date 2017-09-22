@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php include_once('variables.php'); // get branding variables ?>
+<?php include_once('config.php'); ?>
 <?php include_once('functions.php'); ?>
 
 <html>
@@ -11,4 +11,7 @@
     </head>
     <body>
 
-        <?php print_nav_menu($stationMenuItems); ?>
+<?php /*
+        // soon to come
+        print_nav_menu($stationMenuItems);
+ */ ?>
