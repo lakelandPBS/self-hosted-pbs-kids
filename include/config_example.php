@@ -12,19 +12,20 @@
 
 // your call letters on record with PBS. This is needed for the
 // script that grabs the PBS Kids module. 
-$callLetters = 'kawe';
+$callLetters = '';
 
 // the page title that appears in the browser tab
-$pageTitle = 'Lakeland PBS Kids';
+$pageTitle = 'PBS Kids';
 
-// station logo (png is best)
+// station logo (a PNG is recommended)
 $stationLogo = 'images/logo.png';
 
-/* Currently not used. Th be used to create the menu
+/* Currently not used. Ths will be used to create the menu
  * once the menu is implemented
 // menu items ... keep this as short as possible
 // Add or remove menu items below. It works like this
 // 'Link Text' => 'http://site.org/your/URL/here'
+
 $stationMenuItems = array(
     'Parents'       =>  '',
     'Apps'          =>  '',
