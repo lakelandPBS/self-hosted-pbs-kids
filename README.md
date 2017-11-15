@@ -12,4 +12,4 @@ Finally, take a look at `include/config.php` and make the needed changes to bran
 ## Image Sizes
 
 * **Logo** (currently not in use) - 200x200 preferred. It can be whatever size you'd like as long as it is a 1:1 aspect ratio. Just keep in mind that once it is in use, it will be scaled down.
-* **OG Image** - Min: 600x315; Max 1200x630. We're using [Facebook's sizes](https://developers.facebook.com/docs/sharing/best-practices#images).
+* **Social Image** - Min: 600x315; Max 1200x630. We're using [Facebook's sizes](https://developers.facebook.com/docs/sharing/best-practices#images) but Twitter uses nearly the same dimensions/aspect ratio.

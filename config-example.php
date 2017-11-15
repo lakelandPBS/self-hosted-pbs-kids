@@ -29,7 +29,7 @@ $pageDesc = 'Watch LIVE ' . $pageTitle . ' or watch on-demand episodes of your f
 $stationLogo = 'images/logo.png';
 
 // Thumbnail that social media (mainly facebook and twitter) grab
-$ogImage = 'images/ogImage.jpg';
+$socialImage = 'images/socialImage.jpg';
 
 // Your station's twitter handle
 // (e.g @lakelandPBS )
