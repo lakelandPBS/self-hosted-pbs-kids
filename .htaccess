@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Dont allow viewing of directories
+Options -Indexes
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule .* https://kids.lptv.org/%{REQUEST_URI} [R=301,L]

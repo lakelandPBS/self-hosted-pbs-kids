@@ -20,6 +20,21 @@ $pageTitle = 'PBS Kids';
 // station logo (a PNG is recommended)
 $stationLogo = 'images/logo.png';
 
+// Thumbnail that social media (mainly facebook and twitter) grab
+$ogImage = 'images/ogImage.jpg';
+
+/* Currently not used. Th be used to create the menu
+ * once the menu is implemented
+// menu items ... keep this as short as possible
+// Add or remove menu items below. It works like this
+// 'Link Text' => 'http://site.org/your/URL/here'
+$stationMenuItems = array(
+    'Parents'       =>  'https://lptv.org/kids',
+    'Apps'          =>  'http://pbskids.org/apps/',
+    'TV Schedule'   =>  'https://lptv.org/kids',
+);
+/**/
+
 /* Currently not used. Ths will be used to create the menu
  * once the menu is implemented
 // menu items ... keep this as short as possible

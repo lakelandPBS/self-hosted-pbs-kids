@@ -1,6 +1,0 @@
-<?php
-
-// sssshhhhh
-die();
-
-?>
