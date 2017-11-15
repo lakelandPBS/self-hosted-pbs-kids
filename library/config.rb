@@ -5,7 +5,7 @@ require 'compass/import-once/activate'
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
-images_dir = "images"
+images_dir = "../images"
 
 # Keep the output CSS as small as possible
 output_style = :compressed

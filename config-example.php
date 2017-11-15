@@ -10,6 +10,10 @@
  *
  */
 
+// The root URL of the PBS Kids site, including http:// or https://
+// (e.g. https://kids.mysite.com)
+$siteUrl = '';
+
 // your call letters on record with PBS. This is needed for the
 // script that grabs the PBS Kids module. 
 $callLetters = '';
