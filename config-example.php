@@ -31,6 +31,10 @@ $stationLogo = 'images/logo.png';
 // Thumbnail that social media (mainly facebook and twitter) grab
 $ogImage = 'images/ogImage.jpg';
 
+// Your station's twitter handle
+// (e.g @lakelandPBS )
+$twitterHandle = '';
+
 /* Currently not used. This will be used to create the menu
  * once the menu is implemented
 // menu items ... keep this as short as possible
