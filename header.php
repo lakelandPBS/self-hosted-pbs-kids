@@ -21,7 +21,7 @@
 
             // twitter tags
             echo '<meta name="twitter:card" content="summary" />';
-            echo ( $twitterHandle ? '<meta name="twitter:site" content="' . $twitterHandle . '" />' : '' );
+            echo ( isset($twitterHandle) ? '<meta name="twitter:site" content="' . $twitterHandle . '" />' : '' );
             echo '<meta name="twitter:title" content="' . $pageTitle . '" />';
             echo '<meta name="twitter:description" content="' . $pageDesc . '" />';
             echo '<meta name="twitter:image" content="' . $socialImage . '" />';
