@@ -8,7 +8,7 @@ Our station wanted to start using the PBS Kids module and promote it. Our statio
 # Installation
 Once your stations domain has been white listed by PBS digital support, just clone this repo (or download & extract the archive) in to the directory you want the module to appear (e.g. `~/public_html/someDirectory/`).
 
-Finally, copy `config-example.php` to `config.php`. Then make the needed changes to brand this for your station.
+Finally, copy `config-example.php` to `config.php`. Then make the needed changes in `config.php` to brand this for your station.
 
 # Other
 
