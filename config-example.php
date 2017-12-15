@@ -41,21 +41,8 @@ $twitterHandle = '';
 // Add or remove menu items below. It works like this
 // 'Link Text' => 'http://site.org/your/URL/here'
 $stationMenuItems = array(
-    'Parents'       =>  'https://lptv.org/kids',
+    'Parents'       =>  'https://example.com/kids-parent-page',
     'Apps'          =>  'http://pbskids.org/apps/',
-    'TV Schedule'   =>  'https://lptv.org/kids',
+    'TV Schedule'   =>  'https://example.com/kids-schedule',
 );
 /**/
-
-/* Currently not used. Ths will be used to create the menu
- * once the menu is implemented
-// menu items ... keep this as short as possible
-// Add or remove menu items below. It works like this
-// 'Link Text' => 'http://site.org/your/URL/here'
-
-$stationMenuItems = array(
-    'Parents'       =>  '',
-    'Apps'          =>  '',
-    'TV Schedule'   =>  '',
-);
-
