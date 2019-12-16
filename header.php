@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 
 <?php include_once('config.php'); ?>
-<?php include_once('include/functions.php'); ?>
 
 <html>
     <head>
         <title><?php echo $pageTitle; ?></title>
         
         <?php
-            echo '<link rel="stylesheet" type="text/css" href="library/css/style.css?' . filemtime('library/css/style.css') . '">';
+            echo '<link rel="stylesheet" type="text/css" href="' . $siteUrl . '/library/css/style.css?' . filemtime(dirname(__FILE__) . '/library/css/style.css') . '">';
 
             echo '<meta name="description" content="' . $pageDesc . '" />';
 
@@ -27,9 +26,4 @@
             echo '<meta name="twitter:image" content="' . $socialImage . '" />';
         ?>
     </head>
-    <body>
-
-<?php /*
-        // soon to come... maybe
-        print_nav_menu($stationMenuItems);
- */ ?>
+    <body id="<?php echo (isset($error) ? $error : ''); ?>">

@@ -8,6 +8,15 @@ html, body {
     overflow: hidden;
 }
 
+#404 {
+    text-align: center;
+
+    h1, h2, h3, h4, p {
+        color: white;
+        width: 80%;
+        margin: auto;
+    }
+}
 
 .localized-nav {
     display: none;
